@@ -1,0 +1,386 @@
+<html>
+<head>
+<title>Auxins</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v3.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : args[i+1];
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    if ((nbArr = document[grpName]) != null)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = args[i+1];
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+</script>
+<link rel="stylesheet" href="ph.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" onLoad="MM_preloadImages('introductiondown.gif','gibberellinsdown.gif','auxinsdown.gif','abadown.gif','cytodown.gif','ethylenedown.gif','mailarchivedown.gif','joiningdown.gif','searcharchivedown.gif','databasedown.gif','visitorsdown.gif','jobdown.gif','meetingsdown.gif','linksdown.gif')">
+<table width="793" border="0" cellpadding="0" cellspacing="0" align="center">
+  <tr> 
+    <td width="101" height="12"></td>
+    <td width="12"></td>
+    <td width="273"></td>
+    <td width="69"></td>
+    <td width="184"></td>
+    <td width="150"></td>
+    <td width="1"></td>
+    <td width="3"></td>
+  </tr>
+  <tr> 
+    <td valign="top" height="60" colspan="3"><img src="phlogo2002.gif" width="280" height="60"></td>
+    <td valign="top">&nbsp;</td>
+    <td colspan="2" valign="top"><a href="http://www.mendipweb.co.uk/" target="_blank"><img src="sponsoranimation.gif" width="280" height="60" border="0"></a></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td height="19" valign="top"><a href="#" onClick="MM_nbGroup('down','group1','introductionup','introductiondown.gif',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','introductionup','introductiondown.gif','introductiondown.gif',1)"><img src="introductionup.gif" width="100" height="19" border="0" name="introductionup" alt="Plant Hormones Introduction"></a></td>
+    <td rowspan="20" valign="top">&nbsp;</td>
+    <td colspan="3" rowspan="19" valign="top"> 
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td width="526" height="32"></td>
+        </tr>
+        <tr> 
+          <td valign="top" height="307"> 
+            <p align="center"><font size="4" class="running_title">Auxins</font> 
+              <img src="iaa.gif" width="230" height="127" align="middle"></p>
+            <p align="left"><font face="Arial"><b>Nature of Auxins</b><br>
+              <span class="maintext">The term auxin is derived from the Greek 
+              word auxein which means to grow. Compounds are generally considered 
+              auxins if they can be characterized by their ability to induce cell 
+              elongation in stems and otherwise resemble indoleacetic acid (the 
+              first auxin isolated) in physiological activity. Auxins usually 
+              affect other processes in addition to cell elongation of stem cells 
+              but this characteristic is considered critical of all auxins and 
+              thus &quot;helps&quot; define the hormone (Arteca, 1996; Mauseth, 
+              1991; Raven, 1992; Salisbury and Ross, 1992). </span></font></p>
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td rowspan="8" valign="top"><img src="ga1animation.gif" width="150" height="150"></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td height="19" valign="top"><a href="abscisicacid.htm" onClick="MM_nbGroup('down','group1','abaup','abadown.gif',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','abaup','abadown.gif','abadown.gif',1)"><img src="abaup.gif" width="100" height="19" border="0" name="abaup" alt="Information on Abscisic Acid"></a></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td height="19" valign="top"><a href="auxins.htm" onClick="MM_nbGroup('down','group1','auxinsup','auxinsdown.gif',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','auxinsup','auxinsdown.gif','auxinsdown.gif',1)"><img src="auxinup.gif" width="100" height="19" border="0" name="auxinsup" alt="Information on Auxins"></a></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td height="19" valign="top"><a href="cytokinins.htm" onClick="MM_nbGroup('down','group1','cytoup','cytodown.gif',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','cytoup','cytodown.gif','cytodown.gif',1)"><img src="cytoup.gif" width="100" height="19" border="0" name="cytoup" alt="Information on Cytokinins"></a></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td height="19" valign="top"><a href="#" onClick="MM_nbGroup('down','group1','ethyleneup','ethylenedown.gif',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','ethyleneup','ethylenedown.gif','ethylenedown.gif',1)"><img src="ethyleneup.gif" width="100" height="19" border="0" name="ethyleneup" alt="Information on Ethylene"></a></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td height="19" valign="top"><a href="gibberellins.htm" onClick="MM_nbGroup('down','group1','gibberellinsup','gibberellinsdown.gif',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','gibberellinsup','gibberellinsdown.gif','gibberellinsdown.gif',1)"><img src="gibberellinsup.gif" width="100" height="19" border="0" name="gibberellinsup" alt="Information on Gibberellins"></a></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td height="21" valign="top" bgcolor="#A5D608">&nbsp;</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td valign="top" bgcolor="#A5D608" rowspan="2"> 
+      <div align="left"><b><img src="JISC.gif" width="100" height="19"></b></div>
+    </td>
+    <td height="15"></td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td valign="top" colspan="2" rowspan="12" bgcolor="#A5D608">
+      <div align="center"><font face="Arial"><a href="references.htm">References</a></font></div>
+    </td>
+    <td height="4"></td>
+  </tr>
+  <tr> 
+    <td valign="top" height="19"><a href="http://www.jiscmail.ac.uk/lists/plant-hormones.html" onClick="MM_nbGroup('down','group1','mailarchiveup','mailarchivedown.gif',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','mailarchiveup','mailarchivedown.gif','mailarchivedown.gif',1)" target="_blank"><img src="mailarchiveup.gif" width="100" height="19" border="0" name="mailarchiveup" alt="JISC Mail Plant Hormones archive"></a></td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td height="19" valign="top"><a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?SUBED1=plant-hormones&A=1" onClick="MM_nbGroup('down','group1','joiningup','joiningdown.gif',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','joiningup','joiningdown.gif','joiningdown.gif',1)" target="_blank"><img src="joiningup.gif" width="100" height="19" border="0" name="joiningup"></a></td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td height="19" valign="top"><a href="http://www.jiscmail.ac.uk/cgi-bin/wa.exe?S1=plant-hormones" onClick="MM_nbGroup('down','group1','searcharchiveup','searcharchivedown.gif',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','searcharchiveup','searcharchivedown.gif','searcharchivedown.gif',1)" target="_blank"><img src="searcharchiveup.gif" width="100" height="19" border="0" name="searcharchiveup" alt="Search the Plant Hormones archive"></a></td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td height="19" valign="top" bgcolor="#A5D608">&nbsp;</td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td height="19" valign="top"><a href="database.htm" onClick="MM_nbGroup('down','group1','databaseup','databasedown.gif',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','databaseup','databasedown.gif','databasedown.gif',1)"><img src="databaseup.gif" width="100" height="19" border="0" alt="Database of Plant Hormone Workers" name="databaseup"></a></td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td height="19" valign="top"><a href="guestbook/default.asp" onClick="MM_nbGroup('down','group1','visitorsup','visitorsdown.gif',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','visitorsup','visitorsdown.gif','visitorsdown.gif',1)"><img src="visitorsup.gif" width="100" height="19" border="0" alt="Please sign the visitors book" name="visitorsup"></a></td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td height="19" valign="top"><a href="jobs.htm" onClick="MM_nbGroup('down','group1','jobup','jobdown.gif',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','jobup','jobdown.gif','jobdown.gif',1)"><img src="jobup.gif" width="100" height="19" border="0" name="jobup" alt="Job Vacancies"></a></td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td height="19" valign="top"><a href="meetings.htm" onClick="MM_nbGroup('down','group1','meetingsup','meetingsdown.gif',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','meetingsup','meetingsdown.gif','meetingsdown.gif',1)"><img src="meetingsup.gif" width="100" height="19" border="0" name="meetingsup" alt="Meetings"></a></td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td height="19" valign="top"><a href="links.htm" onClick="MM_nbGroup('down','group1','linksup','linksdown.gif',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','linksup','linksdown.gif','linksdown.gif',1)"><img src="linksup.gif" width="100" height="19" border="0" name="linksup" alt="Links to other  sites"></a></td>
+    <td></td>
+  </tr>
+  <tr> 
+    <td valign="top" bgcolor="#A5D608" rowspan="2"><img src="greenblock.gif" width="100" height="100"><br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </td>
+    <td height="14"></td>
+  </tr>
+  <tr> 
+    <td height="290" colspan="3" valign="top">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td width="526" height="290" valign="top"> 
+            <p align="left"><font face="Arial"><b>History of Auxins and Pioneering 
+              Experiments</b><br>
+              <span class="maintext">Auxins were the first plant hormones discovered. 
+              Charles Darwin was among the first scientists to dabble in plant 
+              hormone research. In his book &quot;The Power of Movement in Plants&quot; 
+              presented in 1880, he first describes the effects of light on movement 
+              of canary grass (Phalaris canariensis) coleoptiles. The coleoptile 
+              is a specialized leaf originating from the first node which sheaths 
+              the epicotyl in the plants seedling stage protecting it until it 
+              emerges from the ground. When unidirectional light shines on the 
+              coleoptile, it bends in the direction of the light. If the tip of 
+              the coleoptile was covered with aluminum foil, no bending would 
+              occur towards the unidirectional light. However if the tip of the 
+              coleoptile was left uncovered but the portion just below the tip 
+              was covered, exposure to unidirectional light resulted in curvature 
+              toward the light. Darwin's experiment suggested that the tip of 
+              the coleoptile was the tissue responsible for perceiving the light 
+              and producing some signal which was transported to the lower part 
+              of the coleoptile where the physiological response of bending occurred. 
+              He then cut off the tip of the coleoptile and exposed the rest of 
+              the coleoptile to unidirectional light to see if curving occurred. 
+              Curvature did not occur confirming the results of his first experiment 
+              (Darwin, 1880). <br>
+              It was in 1885 that Salkowski discovered indole-3-acetic acid (IAA) 
+              in fermentation media (Salkowski, 1885). The isolation of the same 
+              product from plant tissues would not be found in plant tissues for 
+              almost 50 years. IAA is the major auxin involved in many of the 
+              physiological processes in plants (Arteca, 1996). In 1907, Fitting 
+              studied the effect of making incisions on either the light or dark 
+              side of the plant. His results were aimed at understanding if translocation 
+              of the signal occurred on a particular side of the plant but his 
+              results were inconclusive because the signal was capable of crossing 
+              or going around the incision (Fitting, 1907). In 1913, Boysen-Jensen 
+              modified Fritting's experiment by inserting pieces of mica to block 
+              the transport of the signal and showed that transport of auxin toward 
+              the base occurs on the dark side of the plant as opposed to the 
+              side exposed to the unidirectional light (Boysen-Jensen, 1913). 
+              In 1918, Paal confirmed Boysen-Jensen's results by cutting off coleoptile 
+              tips in the dark, exposing only the tips to the light, replacing 
+              the coleoptile tips on the plant but off centered to one side or 
+              the other. Results showed that whichever side was exposed to the 
+              coleoptile, curvature occurred toward the other side (Paal, 1918). 
+              Soding was the next scientist to extend auxin research by extending 
+              on Paal's idea. He showed that if tips were cut off there was a 
+              reduction in growth but if they were cut off and then replaced growth 
+              continued to occur (Soding, 1925). <br>
+              In 1926, a graduate student from Holland by the name of Fritz Went 
+              published a report describing how he isolated a plant growth substance 
+              by placing agar blocks under coleoptile tips for a period of time 
+              then removing them and placing them on decapitated Avena stems (Went, 
+              1926). After placement of the agar, the stems resumed growth (see 
+              below). In 1928, Went developed a method of quantifying this plant 
+              growth substance. His results suggested that the curvatures of stems 
+              were proportional to the amount of growth substance in the agar 
+              (Went, 1928). This test was called the avena curvature test.(see 
+              below) <img src="went1.gif" width="486" height="159"></span></font></p>
+            <p><img src="went.gif" width="116" height="395" align="left"><font face="Arial"><span class="maintext">Much 
+              of our current knowledge of auxin was obtained from its applications. 
+              Went's work had a great influence in stimulating plant growth substance 
+              research. He is often credited with dubbing the term auxin but it 
+              was actually Kogl and Haagen-Smit who purified the compound auxentriolic 
+              acid (auxin A) from human urine in 1931 (Kogl and Haagen-Smit, 1931). 
+              Later Kogl isolated other compounds from urine which were similar 
+              in structure and function to auxin A, one of which was indole-3 
+              acetic acid (IAA) initially discovered by Salkowski in 1985. In 
+              1954 a committee of plant physiologists was set up to characterize 
+              the group auxins. The term comes from the Greek auxein meaning &quot;to 
+              grow.&quot; Compounds are generally considered auxins if they are 
+              synthesized by the plant and are substances which share similar 
+              activity to IAA (the first auxin to be isolated from plants) (Arteca, 
+              1996; Davies, 1995). </span><br>
+              </font></p>
+            <p><font face="Arial"><b>Biosynthesis and Metabolism of Auxin</b><br>
+              <span class="maintext">IAA is chemically similar to the amino acid 
+              tryptophan which is generally accepted to be the molecule from which 
+              IAA is derived. Three mechanisms have been suggested to explain 
+              this conversion: <br>
+              Tryptophan is converted to indolepyruvic acid through a transamination 
+              reaction. Indolepyruvic acid is then converted to indoleacetaldehyde 
+              by a decarboxylation reaction. The final step involves oxidation 
+              of indoleacetaldehyde resulting in indoleacetic acid. <br>
+              Tryptophan undergoes decarboxylation resulting in tryptamine. Tryptamine 
+              is then oxidized and deaminated to produce indoleacetaldehyde. This 
+              molecule is further oxidized to produce indoleacetic acid. <br>
+              As recently as 1991, this 3rd mechanism has evolved. IAA can be 
+              produced via a tryptophan-independent mechanism. This mechanism 
+              is poorly understood, but has been proven using trp(-) mutants. 
+              Other experiments have shown that, in some plants, this mechanism 
+              is actually the preferred mechanism of IAA biosynthesis. <br>
+              The enzymes responsible for the biosynthesis of IAA are most active 
+              in young tissues such as shoot apical meristems and growing leaves 
+              and fruits. The same tissues are the locations where the highest 
+              concentrations of IAA are found. One way plants can control the 
+              amount of IAA present in tissues at a particular time is by controlling 
+              the biosynthesis of the hormone. Another control mechanism involves 
+              the production of conjugates which are, in simple terms, molecules 
+              which resemble the hormone but are inactive. The formation of conjugates 
+              may be a mechanism of storing and transporting the active hormone. 
+              Conjugates can be formed from IAA via hydrolase enzymes. Conjugates 
+              can be rapidly activated by environmental stimuli signaling a quick 
+              hormonal response. Degradation of auxin is the final method of controlling 
+              auxin levels. This process also has two proposed mechanisms outlined 
+              below: <br>
+              The oxidation of IAA by oxygen resulting in the loss of the carboxyl 
+              group and 3-methyleneoxindole as the major breakdown product. IAA 
+              oxidase is the enzyme which catalyzes this activity. Conjugates 
+              of IAA and synthetic auxins such as 2,4-D can not be destroyed by 
+              this activity. <br>
+              C-2 of the heterocyclic ring may be oxidized resulting in oxindole-3-acetic 
+              acid. C-3 may be oxidized in addition to C-2 resulting in dioxindole-3-acetic 
+              acid. <br>
+              The mechanisms by which biosynthesis and degradation of auxin molecules 
+              occur are important to future agricultural applications. Information 
+              regarding auxin metabolism will most likely lead to genetic and 
+              chemical manipulation of endogenous hormone levels resulting in 
+              desirable growth and differentiation of important crop species. 
+              Ultimately, the possibility exists to regulate plant growth without 
+              the use of hazardous herbicides and fertilizers (Davies, 1995; Salisbury 
+              and Ross, 1992). </span><br>
+              </font></p>
+            <p><font face="Arial"><b>Functions of Auxin</b><br>
+              <span class="maintext">The following are some of the responses that 
+              auxin is known to cause (Davies, 1995; Mauseth, 1991; Raven, 1992; 
+              Salisbury and Ross, 1992).</span></font></p>
+            <ul>
+              <li><font face="Arial"><span class="maintext">Stimulates cell elongation 
+                <br>
+                </span></font></li>
+              <li><font face="Arial"><span class="maintext">Stimulates cell division 
+                in the cambium and, in combination with cytokinins in tissue culture 
+                <br>
+                </span></font></li>
+              <li><font face="Arial"><span class="maintext">Stimulates differentiation 
+                of phloem and xylem <br>
+                </span></font></li>
+              <li><font face="Arial"><span class="maintext">Stimulates root initiation 
+                on stem cuttings and lateral root development in tissue culture 
+                <br>
+                </span></font></li>
+              <li><font face="Arial"><span class="maintext">Mediates the tropistic 
+                response of bending in response to gravity and light <br>
+                </span></font></li>
+              <li><font face="Arial"><span class="maintext">The auxin supply from 
+                the apical bud suppresses growth of lateral buds <br>
+                </span></font></li>
+              <li><font face="Arial"><span class="maintext">Delays leaf senescence 
+                <br>
+                </span></font></li>
+              <li><font face="Arial"><span class="maintext">Can inhibit or promote 
+                (via ethylene stimulation) leaf and fruit abscission <br>
+                </span></font></li>
+              <li><font face="Arial"><span class="maintext">Can induce fruit setting 
+                and growth in some plants <br>
+                </span></font></li>
+              <li><font face="Arial"><span class="maintext">Involved in assimilate 
+                movement toward auxin possibly by an effect on phloem transport 
+                <br>
+                </span></font></li>
+              <li><font face="Arial"><span class="maintext">Delays fruit ripening 
+                <br>
+                </span></font></li>
+              <li><font face="Arial"><span class="maintext">Promotes flowering 
+                in Bromeliads <br>
+                </span></font></li>
+              <li><font face="Arial"><span class="maintext">Stimulates growth 
+                of flower parts <br>
+                </span></font></li>
+              <li><font face="Arial"><span class="maintext">Promotes (via ethylene 
+                production) femaleness in dioecious flowers <br>
+                </span></font></li>
+              <li><font face="Arial"><span class="maintext">Stimulates the production 
+                of ethylene at high concentrations </span></font></li>
+            </ul>
+            <div align="center"><img src="iaafrrp.gif" width="277" height="145"><br>
+              Above describes the effect of auxin on strawberry development. The 
+              achenes produce auxin. When removed the strawberry does not develop 
+              (Raven, 1992). </div>
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td></td>
+  </tr>
+</table>
+</body>
+</html>
