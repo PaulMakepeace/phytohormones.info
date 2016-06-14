@@ -80,7 +80,7 @@ function MM_jumpMenuGo(selName,targ,restore){ //v3.0
   <tr> 
     <td valign="top" height="60" colspan="3"><img src="phlogo2002.gif" width="280" height="60"></td>
     <td valign="top">&nbsp;</td>
-    <td colspan="2" valign="top"><a href="http://www.mendipweb.co.uk/" target="_blank"><img src="sponsoranimation.gif" width="280" height="60" border="0"></a></td>
+    <td colspan="2" valign="top"><a href="http://paulm.com/" target="_blank"><img src="right_plant.png" width="280" height="60" border="0"></a></td>
     <td></td>
     <td></td>
     <td></td>
