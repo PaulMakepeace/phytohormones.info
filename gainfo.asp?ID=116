@@ -64,7 +64,7 @@ function MM_jumpMenuGo(selName,targ,restore){ //v3.0
 </script>
 <link rel="stylesheet" href="ph.css" type="text/css">
 </head>
-<body bgcolor="#FFFFFF" text="#000000" onLoad="MM_preloadImages('introductiondown.gif','gibberellinsdown.gif','auxinsdown.gif','abadown.gif','cytodown.gif','ethylenedown.gif','mailarchivedown.gif','joiningdown.gif','searcharchivedown.gif','databasedown.gif','visitorsdown.gif','jobdown.gif','meetingsdown.gif','linksdown.gif')">
+<body bgcolor="#FFFFFF" text="#000000" onLoad="MM_preloadImages('introductiondown.gif','gibberellinsdown.gif','auxinsdown.gif','abadown.gif','cytodown.gif','ethylenedown.gif','mailarchivedown.gif','joiningdown.gif','searcharchivedown.gif','databasedown.gif','jobdown.gif','meetingsdown.gif','linksdown.gif')">
 <table width="794" border="0" cellpadding="0" cellspacing="0" align="center">
   <tr> 
     <td width="101" height="12"></td>
@@ -78,7 +78,7 @@ function MM_jumpMenuGo(selName,targ,restore){ //v3.0
     <td width="1"></td>
   </tr>
   <tr> 
-    <td valign="top" height="60" colspan="3"><img src="phlogo2002.gif" width="280" height="60"></td>
+    <td valign="top" height="60" colspan="3"><a href="/"><img src="phlogo2002.gif" width="280" height="60"></a></td>
     <td valign="top">&nbsp;</td>
     <td colspan="2" valign="top"><a href="http://paulm.com/" target="_blank"><img src="right_plant.png" width="280" height="60" border="0"></a></td>
     <td></td>
@@ -86,7 +86,7 @@ function MM_jumpMenuGo(selName,targ,restore){ //v3.0
     <td></td>
   </tr>
   <tr> 
-    <td height="19" valign="top" bgcolor="#A5D60"><a href="index.htm" onClick="MM_nbGroup('down','group1','introductionup','introductiondown.gif',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','introductionup','introductiondown.gif','introductiondown.gif',1)"><img src="introductionup.gif" width="100" height="19" border="0" name="introductionup" alt="Plant Hormones Introduction"></a></td>
+    <td height="19" valign="top" bgcolor="#A5D60"><a href="index.html" onClick="MM_nbGroup('down','group1','introductionup','introductiondown.gif',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','introductionup','introductiondown.gif','introductiondown.gif',1)"><img src="introductionup.gif" width="100" height="19" border="0" name="introductionup" alt="Plant Hormones Introduction"></a></td>
     <td rowspan="21" valign="top">&nbsp;</td>
     <td colspan="3" rowspan="15" valign="top"> 
       <table width="100%" border="0" cellpadding="0" cellspacing="0">
@@ -339,7 +339,7 @@ function MM_jumpMenuGo(selName,targ,restore){ //v3.0
     <td></td>
   </tr>
   <tr> 
-    <td valign="top" rowspan="2" bgcolor="#A5D60"><a href="guestbook/default.asp" onClick="MM_nbGroup('down','group1','visitorsup','visitorsdown.gif',1)" onMouseOut="MM_nbGroup('out')" onMouseOver="MM_nbGroup('over','visitorsup','visitorsdown.gif','visitorsdown.gif',1)"><img src="visitorsup.gif" width="100" height="19" border="0" alt="Please sign the visitors book" name="visitorsup"></a></td>
+    <td valign="top" rowspan="2" bgcolor="#A5D60"></td>
     <td height="3"></td>
     <td></td>
   </tr>
@@ -354,7 +354,7 @@ function MM_jumpMenuGo(selName,targ,restore){ //v3.0
             <p align="center">Mass Spectrum of Gibberellin A116 methyl ester TMS ether.</p>
             <p align="center">Molecular weight =462</p>
             <p align="center">Base peak =284</p>
-            <p align="center"> <a href="retentionindex.htm">Retention Index</a> 
+            <p align="center"> <a href="retentionindex.html">Retention Index</a>
               = 2629</p>
             <p align="center">The data for these pages was compiled and collated 
               by Jake MacMillan, Paul Gaskin and Steve Croker.</p>
