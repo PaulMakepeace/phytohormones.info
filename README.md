@@ -16,4 +16,4 @@ wayback_machine_downloader -t 20140701100848 http://www.plant-hormones.info/
 ```
 ## Author
 
-I believe it was authored by Paul Gaskin from [LARS](https://en.wikipedia.org/wiki/Long_Ashton_Research_Station) in Bristol, UK. If you have his contact details please pass them on.
+I believe it was authored by [Steve Croker](http://www.chemlabs.bris.ac.uk/bios/Steve_Croker.html) from [LARS](https://en.wikipedia.org/wiki/Long_Ashton_Research_Station) in Bristol, UK. Sadly, [he passed away](http://www.bristol.ac.uk/news/2015/january/steve-croker.html) in December 2014. Given Mr Croker's obvious dedication to education I hope he would approve of his site's continuing benefit to the rest of us.
